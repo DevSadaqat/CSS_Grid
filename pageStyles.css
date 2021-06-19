@@ -1,0 +1,11 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 20px ;
+    justify-content: stretch;
+    align-content: center;
+    height: 100vh;
+    justify-items: stretch;
+}
+
